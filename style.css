@@ -1,0 +1,41 @@
+.pic2{
+	width: 350px;
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+	animation: move 5s infinite alternate;
+	z-index: 2;
+}
+@keyframes move {
+	0% {
+		left: 0;
+	}
+	100%{
+		left: 100%;
+	}
+
+}
+.pic3{
+    width: 350px;
+    position: absolute;
+    right: 0;
+    top: auto;
+    bottom: 100px;
+    z-index: 0;
+    animation: move1 5s infinite alternate;
+}
+@keyframes move1{
+	0%{
+		right: 0;
+	}
+	100%{
+		right: 100%;
+	}
+}
+.pic1{
+	width: 100%;
+	position: relative;
+}
+.animation{
+	position: relative;
+}
